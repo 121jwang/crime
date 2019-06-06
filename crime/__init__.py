@@ -14,3 +14,7 @@ class Imp:
 
     def results(self):
         return self.obj['results']
+    
+    def byYear(self):
+        return {d["return_year"]: d for d in results()}
+
